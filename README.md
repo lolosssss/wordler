@@ -1,2 +1,3 @@
 # wordler
+
 Wordle helper
