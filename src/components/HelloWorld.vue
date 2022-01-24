@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     getWords: function () {
-      axios.get('/words.txt')
+      axios.get('words.txt')
         .then(response => {
           this.words = response.data.split('\n');
         })
